@@ -14,7 +14,7 @@ app.post("/add",(req,res)=>{
     res.send({result:sum});
 })
 
-app.post("multiply", (req,res)=>{
+app.post("/multiply", (req,res)=>{
     const numbers=req.body.numbers;
     let product=1;
 
